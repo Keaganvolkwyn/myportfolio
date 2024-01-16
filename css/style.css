@@ -1182,6 +1182,7 @@ textarea {
 }
 
 .logos {
+  position: relative;
   width: 75px;
   height: 75px;
 }
@@ -1196,6 +1197,26 @@ textarea {
   color: #0062b9;
 }
 
-/* .logos:hover {
-  content: attr(data-hover);
-} */
+.tooltip-container{
+  border: solid 5px rgba(140, 203, 224, 0);
+  border-radius: 15px;
+  /* background: rgb(140, 203, 224); */
+}
+
+.tooltip-container:hover{
+  
+  /* border: solid 5px rgb(0, 189, 252);
+  border-radius: 15px;
+  background: rgb(140, 203, 224); */
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #0062b9;
+    transition: 800ms;
+    /* transition: all 0.65s;
+    transform: rotateY(360deg); */
+    .logos{
+      transition: all 0.65s;
+      transform: rotateY(360deg);
+      
+    } 
+}
+
