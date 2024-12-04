@@ -1151,7 +1151,7 @@ textarea {
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   /* This will distribute the logos evenly across the row */
   margin-left: calc(var(--bs-gutter-x)*-.5);
